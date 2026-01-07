@@ -1,2 +1,2 @@
-# rl-specialization
+# rl-spec
 Reinforcement Learning Specialization
