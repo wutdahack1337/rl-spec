@@ -2,7 +2,7 @@ import numpy as np
 from greedy_agent import GreedyAgent
 
 
-def test_0():
+def test_1():
     # build a fake agent for testing and set some initial conditions
     np.random.seed(1)
     greedy_agent = GreedyAgent(
@@ -23,7 +23,7 @@ def test_0():
     assert action == 2
 
 
-def test_1():
+def test_2():
     np.random.seed(1)
     greedy_agent = GreedyAgent(
         {

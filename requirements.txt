@@ -2,3 +2,4 @@ numpy
 pytest
 tqdm
 matplotlib
+pandas

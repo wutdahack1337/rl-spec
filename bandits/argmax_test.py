@@ -3,7 +3,7 @@ import numpy as np
 from argmax import argmax
 
 
-def test_0():
+def test_1():
     test_array = [0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
     assert argmax(test_array) == 8, (
         "Check your argmax implement returns the index of the largest value"
@@ -14,7 +14,7 @@ def test_0():
     test_array = [1, 0, 0, 1]
 
 
-def test_1():
+def test_2():
     # set random seed so results are deterministic
     np.random.seed(0)
     test_array = [1, 0, 0, 1]
