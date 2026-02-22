@@ -3,3 +3,4 @@ pytest
 tqdm
 matplotlib
 pandas
+scipy
